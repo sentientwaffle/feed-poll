@@ -1,6 +1,6 @@
 var should  = require('should')
   , connect = require('connect')
-  , Poll    = require('../');
+  , Poll    = require(__dirname + '../');
 
 // Serve the fixtures.
 connect()

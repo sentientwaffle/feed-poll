@@ -1,5 +1,5 @@
 var EventEmitter = require('events').EventEmitter
-  , feed         = require('../feed-read')
+  , feed         = require('feed-read')
   , _            = require('underscore');
 
 
