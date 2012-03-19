@@ -23,7 +23,7 @@
   }
 
 , "dependencies":
-  { "feed-poll":  "0.0.x"
+  { "feed-read":  "0.0.x"
   , "underscore": "1.x.x"
   }
 
