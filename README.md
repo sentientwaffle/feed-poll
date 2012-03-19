@@ -1,4 +1,7 @@
 # Feed-poll
+
+[![Build Status](https://secure.travis-ci.org/sentientwaffle/feed-poll.png?branch=master)](http://travis-ci.org/sentientwaffle/feed-poll)
+
 Poll for RSS or ATOM articles.
 
 # Installation
