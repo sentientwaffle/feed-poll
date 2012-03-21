@@ -89,7 +89,7 @@ var FeedPoller = (function() {
           , art;
         
         articles = _.sortBy(articles, function(art) {
-          return -art.published.getTime();
+          return art.published ? -art.published.getTime() : 0;
         });
         for (var i = 0; i < articles.length; i++) {
           art = articles[i];
