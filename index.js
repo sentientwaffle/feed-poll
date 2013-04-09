@@ -95,7 +95,9 @@ var FeedPoller = (function() {
           art = articles[i];
           if (!latest || (art.published > latest)) {
             _this.emitter.emit("article", art);
-            _this.cache[feed_url] = art.published;
+            if (_this.cache[feed_url] === undefined || _this.cache[feed_url] < art.published) {
+                _this.cache[feed_url] = art.published;
+            }
           } else if (art.published > latest) {
             break;
           }
